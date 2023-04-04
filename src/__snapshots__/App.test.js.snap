@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <div
+        className="card"
+        style={
+          Object {
+            "backgroundColor": "antiquewhite",
+            "borderRadius": 20,
+            "height": "30rem",
+            "width": "30rem",
+          }
+        }
+      >
+        <img
+          className="card-img-top"
+          src="myPicture.jpeg"
+          style={
+            Object {
+              "height": "15rem",
+            }
+          }
+        />
+        <div
+          className="card-body"
+        >
+          <div
+            className="card-title h5"
+          >
+            <h1>
+              Laura Brea
+            </h1>
+          </div>
+          <p
+            className="card-text"
+          >
+            Hi there!  My name is Laura Brea and I am currently a web development student at NYU's Software Development bootcamp. My favorite parts of the course so far have been Back-End Development and React. Check out my GitHub repository below for some samples of my work.
+          </p>
+          <a
+            className="btn btn-primary"
+            disabled={false}
+            href="https://github.com/LauraBrea3"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+            type="submit"
+          >
+            Check out my GitHub!
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
